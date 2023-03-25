@@ -170,7 +170,7 @@ const tabs = [
 ];
 function Tab() {
   return (
-    <Tabs isLazy={true}>
+    <Tabs isLazy={false}>
       <HStack justify={"space-between"}>
         <TabList>
           {tabs.map(({ title, Icon }) => {

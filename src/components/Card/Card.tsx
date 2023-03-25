@@ -16,7 +16,6 @@ import { AiOutlineDownload } from "react-icons/ai";
 import { BsThreeDots } from "react-icons/bs";
 import { RiVideoAddFill } from "react-icons/ri";
 function Card({ info }: { info: any }) {
-  console.log(info);
   return (
     <ChakraCard
       sx={{ breakInside: "avoid" }}
