@@ -45,7 +45,7 @@ function Card({ info }: { info: any }) {
         display={"flex"}
         justifyContent="space-between"
       >
-        <Text> {moment(new Date(info.registered.data)).fromNow()}</Text>
+        <Text> {moment(new Date(info.registered.date)).fromNow()}</Text>
         <HStack>
           <Button size="sm" variant="ghost">
             <AiOutlineDownload />
