@@ -185,13 +185,13 @@ function Tab() {
           })}
         </TabList>
         <HStack>
-          <Button fontWeight={"normal"} as="a" variant="ghost">
+          {/* <Button fontWeight={"normal"} as="a" variant="ghost">
             What's new?{" "}
             <Badge variant={"solid"} ml="1" rounded="full" colorScheme={"red"}>
               3
             </Badge>
           </Button>
-          <FiSettings />
+        <FiSettings /> */}
         </HStack>
       </HStack>
       <TabPanels>
