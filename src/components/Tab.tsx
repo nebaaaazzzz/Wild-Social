@@ -159,14 +159,14 @@ const tabs = [
     title: "Collections",
     Icon: BsFillCollectionFill,
   },
-  {
-    title: "Integration(soon)",
-    Icon: GiServerRack,
-  },
-  {
-    title: "Report(soon)",
-    Icon: BsFillBarChartFill,
-  },
+  // {
+  //   title: "Integration(soon)",
+  //   Icon: GiServerRack,
+  // },
+  // {
+  //   title: "Report(soon)",
+  //   Icon: BsFillBarChartFill,
+  // },
 ];
 function Tab() {
   return (
