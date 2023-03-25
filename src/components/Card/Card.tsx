@@ -46,9 +46,9 @@ function Card({ info }: { info: any }) {
       >
         <Text> {moment(new Date(info.registered.date)).fromNow()}</Text>
         <HStack>
-          <Button size="sm" variant="ghost">
+          {/* <Button size="sm" variant="ghost">
             <AiOutlineDownload />
-          </Button>
+          </Button> */}
           <Button size="sm" variant="ghost">
             <RiVideoAddFill />
           </Button>
