@@ -13,7 +13,7 @@ function Header() {
       justifyContent={"space-between"}
     >
       <Button variant={"outline"} px="7" py="0" size="md" rounded={"3xl"}>
-        archive
+        Wild Social
       </Button>
       <HStack>
         <Avatar name="Dan Abrahmov" src="https://bit.ly/dan-abramov" />
